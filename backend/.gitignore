@@ -144,3 +144,6 @@ yarn-debug.log
 
 # Coverage directories
 coverage/
+
+# Custom Commands for auth testing
+auth_test.md
