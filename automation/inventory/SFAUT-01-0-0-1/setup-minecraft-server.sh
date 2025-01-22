@@ -14,7 +14,7 @@ echo "Start"
 if [ -z "$REMOTE_USER" ] || [ -z "$REMOTE_HOST" ]; then
   echo "Usage: $0 <remote_user> <remote_host> [remote_password]"
   exit 1
-fi
+fi 
 
 # Install Docker and Start Minecraft Server
 ssh "$REMOTE_USER@$REMOTE_HOST" bash << EOF
