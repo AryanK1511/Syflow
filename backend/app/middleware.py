@@ -34,7 +34,7 @@ class TokenVerificationMiddleware(BaseHTTPMiddleware):
         token = auth_header.split(" ")[1]
 
         verify = VerifyToken(token).verify()
-        if verify.get("status", "error") == "error":
+        if verify.get("status") == "error":
             return JSONResponse(
                 error_response(
                     message="Token verification failed", error=verify
