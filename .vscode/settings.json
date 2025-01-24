@@ -2,6 +2,8 @@
     "editor.insertSpaces": true,
     "files.eol": "\n",
     "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[python]": {
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
@@ -18,5 +20,13 @@
     "[json]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
   }

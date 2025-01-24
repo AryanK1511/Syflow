@@ -1,6 +1,6 @@
 # Syflow
 
-**Syflow** is your go-to automation hub for running, managing, and tracking powerful workflows effortlessly! 🚀✨
+Provision and customize Minecraft servers on the cloud or your own machine, with real-time logs and effortless management 🎮✨.
 
 ## Author
 
